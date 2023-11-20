@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+КОНТРОЛЬНЫЕ ВОПРОСЫ:
+1. Что представляет собой `NodeJS` и для чего используется?
+2. Что представляет собой `Webpack` и чем от отличается от `Vite`?
+3. Что такое маршрутизация (routing) в веб-разработке?
+4. Что такое реактивность в веб-приложении? (НА ВЫБОР)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ОТВЕТЫ:
+1.Node.js - это открытая, кроссплатформенная среда выполнения JavaScript, которая позволяет разработчикам создавать веб-приложения, серверные приложения, мобильные приложения и другие приложения на JavaScript.
 
-## Available Scripts
+Node.js основана на движке V8, который является движком JavaScript, созданным Google. Движок V8 является высокопроизводительным и позволяет Node.js обрабатывать большое количество запросов одновременно.
+2.Webpack - это инструмент для сборки веб-приложений, который объединяет все необходимые файлы и ресурсы в единый, готовый к публикации пакет. Он используется для компиляции JavaScript, CSS, HTML, изображений и других файлов, а также для внедрения зависимостей и оптимизации производительности.
 
-In the project directory, you can run:
+Vite - это более новый инструмент для сборки веб-приложений, который использует преимущества современных браузеров и технологий. Он основан на Rollup, который является более эффективным инструментом сборки, чем Webpack. Vite также имеет ряд других преимуществ, таких как более быстрые сборки, встроенная поддержка TypeScript и hot module replacement.
+3.
+Маршрутизация в веб-разработке - это процесс сопоставления URL-адресов запросов с соответствующими частями приложения. Маршрутизация позволяет пользователям получать доступ к различным частям вашего веб-сайта или приложения, вводя различные URL-адреса.
 
-### `npm start`
+Например, если у вас есть веб-сайт с блогом, вы можете настроить маршрутизацию так, чтобы URL-адрес /blog отображал список всех ваших блоговых постов, а URL-адрес /blog/my-post отображал конкретный пост.
+4.
+Реактивность в веб-приложении - это способность приложения автоматически обновлять свой интерфейс в ответ на изменения данных. Это достигается путем использования реактивного программирования, которое основано на концепции потоков данных.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+В традиционных веб-приложениях данные и интерфейс обычно разделены. Данные хранятся на сервере, а интерфейс отображается в браузере пользователя. Когда данные изменяются, сервер отправляет новый набор данных в браузер, который затем обновляет интерфейс.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Реактивные веб-приложения вместо этого используют реактивное программирование для связывания данных и интерфейса. Это означает, что данные и интерфейс находятся в постоянном взаимодействии, и интерфейс автоматически обновляется в ответ на изменения данных.
